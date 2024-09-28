@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Stopuhr</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
 
-        
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stopuhr</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cyberpunk.css">
+</head>
+
+<body>
+
+    <h1 class="cyber-h">Stopuhr</h1>
+    <div id="display">
+        <textarea name="display" class="cyber-tile fg-cyan bg-dark" readonly></textarea>
+    </div>
+    <div id="start">
+        <button class="cyber-button bg-green fg-white">Start <span class="glitchtext">ERROR</span>
+            <span class="tag">ER01</span></button>
+    </div>
+    <div id="stop">
+        <button class="cyber-button bg-red fg-white">Stop <span class="glitchtext">ERROR</span>
+            <span class="tag">ER02</span></button>
+    </div>
+    <div id="reset">
+        <button class="cyber-button bg-blue fg-white">Reset <span class="glitchtext">ERROR</span>
+            <span class="tag">ER03</span></button>
+    </div>
+    <div>
         <script src="app.js" async defer></script>
-    </body>
+    </div>
+</body>
+
 </html>
