@@ -15,18 +15,18 @@
 
     <h1 class="cyber-h">Stopuhr</h1>
     <div id="display">
-        <textarea name="display" class="cyber-tile fg-cyan bg-dark" readonly></textarea>
+        <textarea id="displayText" name="display" class="cyber-tile fg-cyan bg-dark" readonly></textarea>
     </div>
     <div id="start">
-        <button class="cyber-button bg-green fg-white">Start <span class="glitchtext">ERROR</span>
+        <button id="startbt" class="cyber-button bg-green fg-white" onclick="Stopuhr.start()">Start <span class="glitchtext">ERROR</span>
             <span class="tag">ER01</span></button>
     </div>
     <div id="stop">
-        <button class="cyber-button bg-red fg-white">Stop <span class="glitchtext">ERROR</span>
+        <button id="stopbt" class="cyber-button bg-red fg-white" onclick="Stopuhr.stop()">Stop <span class="glitchtext">ERROR</span>
             <span class="tag">ER02</span></button>
     </div>
     <div id="reset">
-        <button class="cyber-button bg-blue fg-white">Reset <span class="glitchtext">ERROR</span>
+        <button id="resetbt" class="cyber-button bg-blue fg-white" onclick="Stopuhr.reset()">Reset <span class="glitchtext">ERROR</span>
             <span class="tag">ER03</span></button>
     </div>
     <div>
